@@ -16,6 +16,11 @@ Build the docker image
 $ ./mvnw install dockerfile:build
 ```
 
+## Clean up old containers
+
+```bash
+./docker-cleanup.sh
+```
 ## Access to Hystrix Dashboard
 
 If running locally the hystrix dashboard will be available using the below mentioned url
